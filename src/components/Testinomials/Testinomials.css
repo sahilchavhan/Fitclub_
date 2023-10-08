@@ -1,0 +1,44 @@
+.Testinomials{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 0px 20px;
+    width:50%;
+}
+
+.leftside>:nth-child(4){
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.rightside{
+    flex: 1;
+    position:relative;
+    width:50%;
+}
+
+.timage{
+    width:450px;
+    height: 600px;
+    z-index: 1;
+    border: 2px solid black;
+    box-shadow:30px 30px var(--orange);
+}
+
+.timage:hover{
+    cursor: pointer;
+}
+
+.timage2{
+    /* position: absolute; */
+    width:450px;
+    height:930px;
+    background-color: transparent;
+    
+}

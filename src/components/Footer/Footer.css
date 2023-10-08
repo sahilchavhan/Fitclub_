@@ -1,0 +1,100 @@
+.logo3{
+    width:40px;
+    height:40px;
+    
+}
+.line{
+    border-top:1px dashed white;
+    width: 100%;
+    
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    gap:30px;
+}
+
+.last{
+    position: relative;
+    bottom: 7px;
+    left:630px;
+    width:10px;
+}
+.input{
+    color: black;
+}
+
+.blurfooter{
+    background: rgba(253, 120, 43, 0.69);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -9;
+      width: 32rem;
+      height: 23rem;
+      top: 128rem;
+      /* bottom: 0px; */
+      right: 0rem;
+}
+
+.blurfooter1{
+    background: rgba(253, 120, 43, 0.69);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -9;
+      width: 32rem;
+      height: 23rem;
+      top: 178rem;
+      /* bottom: 0px; */
+      left: 0rem;
+}
+
+.blurfooter2{
+    background: rgba(253, 120, 43, 0.69);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -9;
+      width: 32rem;
+      height: 23rem;
+      top: 178rem;
+      /* bottom: 0px; */
+      right: 0rem;
+}
+
+
+.blurfooter3{
+    background: rgba(253, 120, 43, 0.69);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -9;
+      width: 34rem;
+      height: 13rem;
+      top: 238rem;
+      /* bottom: 0px; */
+      left: 10rem;
+}
+
+.blurfooter4{
+    background: rgba(253, 120, 43, 0.69);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -9;
+      width: 44rem;
+      height: 13rem;
+      top: 278rem;
+      /* bottom: 0px; */
+      left: 20rem;
+}

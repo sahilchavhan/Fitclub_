@@ -1,0 +1,36 @@
+.Join{
+    display: flex;
+    flex-direction: row;
+}
+
+.input{
+    height:30px;
+    width:fit-content;
+    color: transparent;
+}
+.rightpart{
+    /* padding: 60px 80px; */
+    background-color: var(--gray);
+    height:70px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    position: relative;
+    top: 70px;
+    right: -60px;
+}
+
+#join{
+    color: white;
+    background-color: var(--orange);
+    border: 0px transparent;
+}
+
+#join:hover{
+    /* color: black;
+    background-color: rgb(247, 243, 243);
+    border: 1px solid black; */
+    cursor: pointer;
+}

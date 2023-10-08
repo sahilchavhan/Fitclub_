@@ -1,0 +1,66 @@
+.Reason{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+    /* margin:2px; */
+    gap: 10px;
+}
+
+#two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image2{
+    height: 500px;
+    width:500px;
+}
+
+.image3{
+    height: 323px;
+    width:244px;
+}
+
+.image4{
+    height: 323px;
+    width:244px;
+}
+
+.three{
+    display: flex;
+    gap: 10px;
+}
+
+.first{
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.second{
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    font-size: 70px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.third{
+    color:white;
+}
+
+.fifth{
+    display: flex;
+    gap:20px;
+}

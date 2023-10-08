@@ -1,0 +1,53 @@
+.plan{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--gray);
+    padding: 40px;
+    border-radius: 25px;
+    font-size: larger;
+}
+
+.plans{
+    display: flex;
+    flex-direction: row;
+    padding:0px 140px;
+    gap:60px;
+   
+}
+
+.plan:hover{
+    background-color: var(--orange);
+    color:white;
+    cursor: pointer;
+    /* height:800px; */
+}
+
+.btn2{
+    width:130px;
+    border-radius: 10px;
+}
+
+.plans-blur1{
+    background: rgba(253, 120, 43, 0.69);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -9;
+    width: 32rem;
+    height: 23rem;
+    top: 68rem;
+    left: 0rem;
+}
+
+.plans-blur2{
+    background: rgba(253, 120, 43, 0.69);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -9;
+      width: 32rem;
+      height: 23rem;
+      top: 68rem;
+      right: 0rem;
+}
